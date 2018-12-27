@@ -1,0 +1,30 @@
+{
+  "name": "node_web",
+  "version": "2.0.0",
+  "description": "Mi primer sitio web en node",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src",
+    "dev": "nodemon src"
+  },
+  "keywords": [
+    "Alberto",
+    "Guzman",
+    "Blog",
+    "Alberto",
+    "Web",
+    "para",
+    "todos"
+  ],
+  "author": "Alberto Guzman",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+
+}
